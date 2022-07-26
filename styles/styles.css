@@ -26,6 +26,128 @@ html {
   height: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  background-color: #ffffff;
+}
+
+.main-header {
+  margin-top: 40px;
+}
+
+.header-container {
+  position: relative;
+  margin: 0 auto;
+  width: 1160px;
+  box-sizing: border-box;
+  min-height: 300px;
+  padding-top: 45px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #ffe17f;
+}
+
+.header-link {
+  position: absolute;
+  left: 60px;
+  top: -21px;
+}
+
+.header-link:hover {
+  opacity: 0.6;
+}
+
+.header-link:active {
+  opacity: 0.3;
+}
+
+.header-link:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.header-nav-user {
+  display: flex;
+}
+
+.header-form {
+  display: flex;
+  width: 517px;
+  margin-right: 26px;
+}
+
+.header-input {
+  width: 359px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 48px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 50px 0 0 50px;
+  background-color: transparent;
+  background: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+
+.header-input:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.header-input:disabled {
+  opacity: 0.3;
+}
+
+.header-button {
+  width: 160px;
+  margin-left: -2px;
+  border: 2px solid #000000;
+  border-radius: 0 50px 50px 0;
+  background: transparent;
+  
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.header-button:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.header-button:disabled {
+  opacity: 0.3;
 }

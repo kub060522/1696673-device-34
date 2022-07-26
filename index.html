@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/styles/styles.css">
-  <link rel="stylesheet" href="/styles/outline.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/outline.css">
   <title>HTML Academy: Девайс</title>
 </head>
 
@@ -14,13 +14,13 @@
       <a class="header-link" href="#">
         <img src="images/logo-header.svg" width="145" height="37" alt="Логотип интернет-магазина Девайс.">
       </a>
-      <form class="header-form" action="https://echo.htmlacademy.ru" method="get">
-        <label class="header-label visually-hidden" for="header-search">Поиск по сайту</label>
-        <input class="header-input" type="search" name="search" id="header-search" placeholder="Текст поиска">
-        <button class="header-button" type="submit">Найти</button>
-      </form>
-      <nav class="header-nav">
-        <ul class="header-nav-user">
+      <nav class="header-nav-user">
+        <form class="header-form" action="https://echo.htmlacademy.ru" method="get">
+          <label class="header-label visually-hidden" for="header-search">Поиск по сайту</label>
+          <input class="header-input" type="search" name="search" id="header-search" placeholder="Текст поиска">
+          <button class="header-button" type="submit">Найти</button>
+        </form>
+        <ul class="header-nav-user-list">
           <li class="header-nav-user-item">
             <a href="#">Войти</a>
           </li>
@@ -31,21 +31,21 @@
             <a href="#">Корзина</a>
           </li>
         </ul>
-        <ul class="header-nav-site">
-          <li class="header-nav-site-item">
-            <a href="catalog.html">Каталог товаров</a>
-          </li>
-          <li class="header-nav-site-item">
-            <a href="#">Доставка</a>
-          </li>
-          <li class="header-nav-site-item">
-            <a href="#">Гарантия</a>
-          </li>
-          <li class="header-nav-site-item">
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
       </nav>
+      <ul class="header-nav-site">
+        <li class="header-nav-site-item">
+          <a href="catalog.html">Каталог товаров</a>
+        </li>
+        <li class="header-nav-site-item">
+          <a href="#">Доставка</a>
+        </li>
+        <li class="header-nav-site-item">
+          <a href="#">Гарантия</a>
+        </li>
+        <li class="header-nav-site-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
     </div>
   </header>
 </body>
