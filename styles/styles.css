@@ -87,6 +87,7 @@ body {
 
 .header-nav-user {
   display: flex;
+  align-items: center;
 }
 
 .header-form {
@@ -150,4 +151,65 @@ body {
 
 .header-button:disabled {
   opacity: 0.3;
+}
+
+.header-nav-user-list {
+  display: flex;
+  width: 497px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.item-enter {
+  width: 231px;
+  margin-right: auto;
+}
+
+.item-compare {
+  margin-right: 36px;
+}
+
+.header-nav-user-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-enter {
+  padding-left: 27px;
+  background: url(../images/enter.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.link-compare {
+  padding-left: 20px;
+  background: url(../images/compare.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.link-basket {
+  position: relative;
+  padding-left: 28px;
+  padding-top: 4px;
+  background: url(../images/basket.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.link-basket-number {
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
 }
