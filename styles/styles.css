@@ -213,3 +213,50 @@ body {
   line-height: 17px;
   background-color: #ffffff;
 }
+
+.item-popover {
+  position: relative;
+}
+
+.popover-cart {
+  position: absolute;
+  top: 42px;
+  left: -122px;
+
+  /* display: none; */
+  width: 320px;
+  min-height: 134px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.popover-cart::before {
+  position: absolute;
+  top: -5px;
+
+  display: block;
+  margin: 0;
+  content: "";
+  width: 320px;
+  height: 6px;
+
+  background-image: url("../images/popup-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.popover-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.popover-content-link {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}

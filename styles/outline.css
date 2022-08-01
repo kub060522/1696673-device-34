@@ -11,3 +11,10 @@
   outline: #000280 solid 1px;
 }
 */
+.popover-content {
+  outline: #ff6347 solid 1px;
+}
+
+.popover-content-link {
+  outline: #fbff00 solid 1px;
+}
