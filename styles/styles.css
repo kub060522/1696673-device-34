@@ -28,13 +28,11 @@ html {
 
 .visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -129,7 +127,6 @@ body {
   border: 2px solid #000000;
   border-radius: 0 50px 50px 0;
   background: transparent;
-  
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -220,13 +217,11 @@ body {
 
 .popover-cart {
   position: absolute;
-  top: 42px;
-  left: -122px;
-
+  top: 37px;
+  left: -140px;
   /* display: none; */
   width: 320px;
   min-height: 134px;
-
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -236,13 +231,11 @@ body {
 .popover-cart::before {
   position: absolute;
   top: -5px;
-
   display: block;
   margin: 0;
   content: "";
   width: 320px;
   height: 6px;
-
   background-image: url("../images/popup-arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -259,4 +252,20 @@ body {
   display: flex;
   text-decoration: none;
   color: #ffffff;
+}
+
+.popover-content-img {
+  margin-right: 23px;
+}
+
+.popover-remove {
+
+  width: 11px;
+  height: 11px;
+  border: none;
+  background-color: #000000;
+  background-image: url("../images/remove-product.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
