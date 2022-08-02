@@ -171,6 +171,7 @@ body {
 .header-nav-user-link {
   text-decoration: none;
   color: #000000;
+  padding: 6px 4px;
 }
 
 .link-enter {
@@ -211,6 +212,19 @@ body {
   background-color: #ffffff;
 }
 
+.header-nav-user-link:hover {
+  opacity: 0.6;
+}
+
+.header-nav-user-link:active {
+  opacity: 0.3;
+}
+
+.header-nav-user-link:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
 .item-popover {
   position: relative;
 }
@@ -219,7 +233,7 @@ body {
   position: absolute;
   top: 37px;
   left: -140px;
-  /* display: none; */
+  display: none;
   width: 320px;
   min-height: 134px;
   font-size: 16px;
@@ -241,6 +255,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.item-popover:hover .popover-cart,
+.item-popover:focus-within .popover-cart {
+  display: block;
+}
+
 .popover-content {
   display: flex;
   justify-content: space-between;
@@ -254,12 +273,24 @@ body {
   color: #ffffff;
 }
 
+.popover-content-link:hover {
+  opacity: 0.6;
+}
+
+.popover-content-link:active {
+  opacity: 0.3;
+}
+
+.popover-content-link:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
 .popover-content-img {
   margin-right: 23px;
 }
 
 .popover-remove {
-
   width: 11px;
   height: 11px;
   border: none;
@@ -268,4 +299,73 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+.popover-remove:hover {
+  opacity: 0.6;
+}
+
+.popover-remove:active {
+  opacity: 0.3;
+}
+
+.popover-remove:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.popover-info-number {
+  margin: 0;
+}
+
+.popover-info-price {
+  margin: 0;
+}
+
+.popover-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #1a1a1a;
+}
+
+.popover-basket-link {
+  display: block;
+  box-sizing: border-box;
+  width: 280px;
+  margin: 20px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+
+.popover-basket-link:hover {
+  background-color: #ffe17f;
+}
+
+.popover-basket-link:active {
+  background-color: #ffe17f;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.popover-basket-link:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.popover-basket-link:disabled {
+  color: rgba(0, 0, 0, 0.3);
 }
