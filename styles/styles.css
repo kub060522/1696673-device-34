@@ -86,6 +86,7 @@ body {
 .header-nav-user {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .header-form {
@@ -368,4 +369,59 @@ body {
 
 .popover-basket-link:disabled {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.header-nav-site-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-item-catalog {
+  /* width: 293px; */
+  margin-right: auto;
+}
+
+.header-nav-site-item:not(.site-item-catalog) {
+  margin-right: 45px;
+}
+
+.header-nav-site-item:last-child {
+  margin-right: 0;
+}
+
+.header-nav-site-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-nav-site-link:not(.site-link-catalog) {
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+
+.site-link-catalog {
+  display: flex;
+  align-items: center;
+  /* margin-right: 7px; */
+}
+
+.site-link-catalog::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url(../images/catalog-plus.svg);
+  opacity: 0.3;
 }
