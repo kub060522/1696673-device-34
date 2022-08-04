@@ -10,24 +10,23 @@
 
 <body>
   <header class="main-header">
-    <div class="header-container">
-      <a class="header-link" href="#">
+      <a class="header-logo-link" href="#">
         <img src="images/logo-header.svg" width="145" height="37" alt="Логотип интернет-магазина Девайс.">
       </a>
       <nav class="header-nav-user">
         <form class="header-form" action="https://echo.htmlacademy.ru" method="get">
-          <label class="header-label visually-hidden" for="header-search">Поиск по сайту</label>
-          <input class="header-input" type="search" name="search" id="header-search" placeholder="Текст поиска">
-          <button class="header-button" type="submit">Найти</button>
+          <label class="visually-hidden" for="header-search">Поиск по сайту</label>
+          <input class="header-form-input" type="search" name="search" id="header-search" placeholder="Текст поиска">
+          <button class="header-form-button" type="submit">Найти</button>
         </form>
         <ul class="header-nav-user-list">
-          <li class="header-nav-user-item item-enter">
+          <li class="header-nav-user-enter">
             <a class="header-nav-user-link link-enter" href="#">Войти</a>
           </li>
-          <li class="header-nav-user-item item-compare">
+          <li class="header-nav-user-compare">
             <a class="header-nav-user-link link-compare" href="#">Сравнить</a>
           </li>
-          <li class="header-nav-user-item item-popover">
+          <li class="header-nav-user-popover">
             <a class="header-nav-user-link link-basket" href="#">
               <span class="link-basket-number">2</span>
               Корзина
@@ -62,11 +61,38 @@
           </li>
         </ul>
       </nav>
+
       <nav class="header-nav-site">
+        <div class="header-nav-site-catalog">
+          <button class="site-button-catalog catalog-close" type="button">Каталог товаров</button>
+          <div class="nav-catalog-wrapper">
+            <ul class="nav-catalog-list column-first">
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Виртуальная реальность</a>
+              </li>
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Моноподы для селфи</a>
+              </li>
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Экшн-камеры</a>
+              </li>
+            </ul>
+            <ul class="nav-catalog-list column-two">
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Фитнес-браслеты</a>
+              </li>
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Умные часы</a>
+              </li>
+            </ul>
+            <ul class="nav-catalog-list">
+              <li class="nav-catalog-item">
+                <a class="nav-catalog-link" href="#">Квадрокоптеры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <ul class="header-nav-site-list">
-          <li class="header-nav-site-item site-item-catalog">
-            <a class="header-nav-site-link site-link-catalog" href="catalog.html">Каталог товаров</a>
-          </li>
           <li class="header-nav-site-item">
             <a class="header-nav-site-link" href="#">Доставка</a>
           </li>
@@ -78,7 +104,7 @@
           </li>
         </ul>
       </nav>
-    </div>
+
   </header>
 </body>
 
