@@ -550,3 +550,83 @@ body {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
+
+/* slider */
+
+.slider-button {
+  width: 20px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-prev {
+  background-image: url(../images/prev.svg);
+}
+
+.slider-next {
+  background-image: url(../images/next.svg);
+}
+
+.slider-button:hover,
+.slider-pagination-button:hover {
+  opacity: 0.6;
+}
+
+.slider-button:active,
+.slider-pagination-button:active {
+  opacity: 0.3;
+}
+
+.slider-button:focus {
+  outline: #af4fff solid 2px;
+  outline-offset: 2px;
+}
+
+.slider-button:disabled {
+  opacity: 0.1;
+}
+
+.slider-pagination-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.slider-pagination-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.slider-pagination-button {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  border: none;
+  background: none;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.slider-pagination-button-current::after {
+  background-color: #000000;
+}
+
+.slider-pagination-button::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border: #000000 solid 2px;
+  border-radius: 50%;
+}
+
+.slider-pagination-button:focus {
+  outline: #af4fff solid 2px;
+}

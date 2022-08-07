@@ -1,8 +1,8 @@
-/*
+
 .main-header {
   outline: #b22222 solid 1px;
 }
-*/
+
 /*
 .header-container {
   outline: #808000 solid 1px;
@@ -37,3 +37,11 @@
 .header-nav-site-list {
   outline: #000280 solid 1px;
 } */
+
+.slider-button {
+  outline: #07bb7f solid 1px;
+}
+
+.slider-pagination-button {
+  outline: #b22222 solid 1px;
+}
