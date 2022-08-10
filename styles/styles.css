@@ -606,7 +606,8 @@ body {
   margin-bottom: 51px;
 }
 
-.slider-link {
+.button-link {
+  text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -617,8 +618,31 @@ body {
   text-decoration: none;
 }
 
-.slider-definitions-list {
+.slider-link {
+  display: block;
+  width: 220px;
+  margin-bottom: 45px;
+  padding: 10px 0;
+}
+
+.slider-product-info {
   display: flex;
+  gap: 20px;
+}
+
+.slider-description-list {
+  margin: 0;
+}
+
+.slider-description-term {
+  margin-bottom: 12px;
+  font-size: 36px;
+  color: #000000;
+}
+
+.slider-definition {
+  margin: 0;
+  font-size: 16px;
 }
 
 .slider-button {
