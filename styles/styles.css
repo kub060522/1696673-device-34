@@ -552,6 +552,75 @@ body {
 
 /* slider */
 
+.slider-container {
+  width: 1160px;
+  margin: -20px auto;
+  background-image: linear-gradient(#ffe17f 150px, #ffffff 150px);
+}
+
+.slider-product-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.slider-product-item {
+  display: flex;
+}
+
+.slider-product-img {
+  display: block;
+  margin-right: 40px;
+}
+
+.slider-product-description {
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+}
+
+.slider-number {
+  display: block;
+  padding-left: auto;
+  padding-right: 50px;
+  padding-top: 6px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 180px;
+  color: #ffffff;
+}
+
+.slider-slogan {
+  margin: -65px 0 29px;
+  margin-top: -65px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.slider-info {
+  margin: 0;
+  margin-bottom: 51px;
+}
+
+.slider-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.slider-definitions-list {
+  display: flex;
+}
+
 .slider-button {
   width: 20px;
   height: 60px;
