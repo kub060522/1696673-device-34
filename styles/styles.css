@@ -727,14 +727,14 @@ body {
 }
 
 .slider-pagination-list {
+  position: absolute;
+  top: 364px;
+  right: 0;
   display: flex;
+  gap: 15px;
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.slider-pagination-item:not(:last-child) {
-  margin-right: 20px;
 }
 
 .slider-pagination-button {
@@ -761,6 +761,6 @@ body {
   border-radius: 50%;
 }
 
-.slider-pagination-button:focus {
+.slider-pagination-button:focus-visible {
   outline: #af4fff solid 2px;
 }
