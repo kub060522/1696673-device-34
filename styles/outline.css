@@ -41,18 +41,21 @@
 .slider-container {
   outline: #07bb7f solid 1px;
 }
-
+/*
 .slider-product-item {
   outline: #9c8500 solid 1px;
 }
-
+*/
+/*
 .slider-button {
   outline: #196d00 solid 1px;
 }
+*/
 
 .slider-pagination-button {
   outline: #b22222 solid 1px;
 }
+
 /*
 .slider-product-img {
   outline: #011f74 solid 1px;
@@ -61,5 +64,10 @@
 /*
 .slider-link {
   outline: #011f74 solid 1px;
+}
+*/
+/*
+.slider-button-wrapper {
+  outline: #003261 solid 1px;
 }
 */
