@@ -565,6 +565,10 @@ body {
 }
 
 .slider-product-item {
+  display: none;
+}
+
+.slider-product-item-current {
   display: flex;
 }
 
