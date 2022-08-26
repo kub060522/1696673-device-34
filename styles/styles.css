@@ -114,6 +114,7 @@ body {
 .header-form-input:focus {
   outline: #af4fff solid 2px;
   outline-offset: 2px;
+}
 
 /* slider */
 
