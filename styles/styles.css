@@ -839,3 +839,28 @@ body {
   outline: #af4fff solid 2px;
   outline-offset: 2px;
 }
+
+.services {
+  background-image: linear-gradient(#ffffff 26.1%, #f0f0f0 26.1%);
+}
+
+.services-container {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto 72px;
+}
+
+.services-button-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  margin: 0;
+  padding: 64px 0 65px;
+  list-style-type: none;
+}
+
+.services-list {
+  width: 694px;
+  list-style-type: none;
+}
